@@ -20,7 +20,10 @@ public class controlador1 {
         List<Amenaza> amenazas = new ArrayList<>();
         amenazas.add(new Amenaza("Ransomware.LockBit", 9, false));
         amenazas.add(new Amenaza("Adware.PopUpSpy", 2, false));
-        amenazas.add(new Amenaza("Trojano_64.exe", 7, false));
+        amenazas.add(new Amenaza("virus_filter.exe", 8, false));
+        amenazas.add(new Amenaza("DATA.stealer", 6, false));
+        amenazas.add(new Amenaza("cryptominer.exe", 5, false));
+        amenazas.add(new Amenaza("Troyano_64.exe", 7, false));
 
         List<Defensa> sistemas = new ArrayList<>();
 
