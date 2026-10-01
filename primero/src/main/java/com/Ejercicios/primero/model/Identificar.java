@@ -1,5 +1,7 @@
 package com.Ejercicios.primero.model;
 
+import java.util.List;
+
 public interface Identificar {
-    String identificarAmenaza(Amenaza amenaza);
+    String identificarAmenaza(List<Amenaza> amenazas);
 }

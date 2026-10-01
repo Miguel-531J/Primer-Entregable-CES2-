@@ -2,13 +2,13 @@
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>vista1</title>
+    <title>vista4</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        .operacion {
+        .eff{
             color: #2c3e50;
             font-size: 16px;
         }
@@ -36,10 +36,8 @@
     </style>
 </head>
 <body>
-
-    <div>
-        <span class="operacion" th:utext="${resultado}"></span>
-    </div>
-
+<div>El numero de eficiencia mayor en los sistemas es de:
+    <span class="eff" th:utext="${eficiencias}"></span>
+</div>
 </body>
 </html>

@@ -2,13 +2,13 @@
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>vista1</title>
+    <title>vista4</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        .operacion {
+        .may {
             color: #2c3e50;
             font-size: 16px;
         }
@@ -36,10 +36,11 @@
     </style>
 </head>
 <body>
-
-    <div>
-        <span class="operacion" th:utext="${resultado}"></span>
-    </div>
-
+<div>Los niveles mas altos de amenaza son mayores de 7?
+    <span class="may" th:utext="${Mayores}"></span>
+</div>
+<div>El nivel mas bajo de amenaza es igual a dos?
+    <span class="may" th:utext="${Menor}"></span>
+</div>
 </body>
 </html>

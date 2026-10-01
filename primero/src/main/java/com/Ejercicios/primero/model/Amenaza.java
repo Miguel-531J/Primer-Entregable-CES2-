@@ -15,9 +15,7 @@ public class Amenaza {
     public String getNombre() { return nombre;}
     public Boolean getEstado() { return eliminada;}
 
-    public void setNivel(Integer nivel) {
-        this.nivel = nivel;
-    }
+    public void setNivel(Integer nivel) { this.nivel = nivel; }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;

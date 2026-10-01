@@ -1,5 +1,9 @@
 package com.Ejercicios.primero.model;
 
-public interface Defensa extends Alertar, Escanear, Identificar {
+import java.util.List;
 
+public interface Defensa extends Alertar, Escanear, Identificar {
+    String getNombre();
+    List<Amenaza> getAmenazas();
+    Integer getEficiencia();
 }

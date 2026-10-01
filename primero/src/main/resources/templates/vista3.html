@@ -2,13 +2,13 @@
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>vista1</title>
+    <title>vista3</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        .operacion {
+        .estadistica {
             color: #2c3e50;
             font-size: 16px;
         }
@@ -36,10 +36,14 @@
     </style>
 </head>
 <body>
-
-    <div>
-        <span class="operacion" th:utext="${resultado}"></span>
-    </div>
-
+<div>
+    Nivel de amenaza minimo en la lista1: <span class="estadistica" th:utext="${min}"></span>
+</div>
+<div>
+    Nivel de amenaza maximo en la lista1: <span class="estadistica" th:utext="${max}"></span>
+</div>
+<div>
+    Nivel de amenaza promedio en la lista1: <span class="estadistica" th:utext="${promedio}"></span>
+</div>
 </body>
 </html>
