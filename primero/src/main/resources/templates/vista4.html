@@ -8,7 +8,7 @@
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        .nombreAm {
+        .may {
             color: #2c3e50;
             font-size: 16px;
         }
@@ -36,14 +36,11 @@
     </style>
 </head>
 <body>
-<div>Nombres de las amenazas de la lista 1:
-    <span class="nombresAm" th:utext="${nombres1}"></span>
+<div>Los niveles mas altos de amenaza son mayores de 7?
+    <span class="may" th:utext="${Mayores}"></span>
 </div>
-<div>Nombres de las amenazas de la lista 2:
-    <span class="nombresAm" th:utext="${nombres2}"></span>
-</div>
-<div>Nombres de las amenazas de la lista 3:
-    <span class="nombresAm" th:utext="${nombres3}"></span>
+<div>El nivel mas bajo de amenaza es igual a dos?
+    <span class="may" th:utext="${Menor}"></span>
 </div>
 </body>
 </html>
